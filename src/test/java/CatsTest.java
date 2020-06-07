@@ -1,10 +1,7 @@
 import application.pageobject.pages.*;
 import framework.browser.Browser;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class CatsTest {
     @BeforeSuite
@@ -117,7 +114,7 @@ public class CatsTest {
         Thread.sleep(57892);
     }
 
-    @AfterTest
+    @AfterSuite
     public void after() {
         Browser.quit();
     }
