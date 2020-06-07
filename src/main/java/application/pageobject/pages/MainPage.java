@@ -42,4 +42,11 @@ public class MainPage {
             link.click();
         }
     }
+
+    public void logOut() {
+        Button btn = new Button(By.xpath("//li[@class='dropdown user user-menu']"), "log out btn");
+        btn.click();
+        Button btnViiti = new Button(By.xpath("//*[text()='Выйти']"), "viiti");
+        btnViiti.click();
+    }
 }

@@ -88,6 +88,8 @@ public class CatsTest {
         deletePage.clickDelete();
 
         knowledgePage.goToMain();
+
+        mainPage.logOut();
     }
 
     @Test
@@ -122,8 +124,8 @@ public class CatsTest {
 
     }
 
-    @AfterTest
-    public void after() {
-        Browser.quit();
-    }
+//    @AfterTest
+//    public void after() {
+//        Browser.quit();
+//    }
 }
