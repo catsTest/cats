@@ -24,7 +24,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>suits.xml</suiteXmlFile>
-                        <suiteXmlFile>eumk.xml</suiteXmlFile>
+<!--                        <suiteXmlFile>eumk.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
